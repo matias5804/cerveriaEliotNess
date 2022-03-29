@@ -1,0 +1,28 @@
+.variedades{
+
+    background-image: url('../../assets/img/pictures/variedades.png')!important;
+    background: #183c55!important;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(24,60,85,1) 25%)!important;
+
+}
+
+.divTitleVariedades{
+    padding: 70px 10px 0 10px;
+    color: $colorWhite;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divTitleVariedades span{
+    color: $colorPri;
+}
+
+.divTitleVariedades h1{
+    line-height: 45px;
+}
+
+.divTitleVariedades h4{
+    font-weight: 200;
+    padding: 20px;
+}

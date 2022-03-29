@@ -1,0 +1,78 @@
+.footer{
+    background-color: $colorDark;
+    background-image:url('../../assets/img/pictures/footerF.png') ;
+
+    background-position-x:center ; 
+
+    width: 100%;
+    color:$colorPri;
+    padding:50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+}
+.divBrandPFooter{
+    display: none;
+}
+
+.divInfoFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.divInfoFooter h4{
+    text-align: start;
+}
+
+.divRedesFooter{
+    display: none;
+}
+.footer span{
+    color:white;
+    font-weight: 300;
+}
+
+.ulFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 0 15px 0;
+ 
+}
+
+.footer li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.divDerechos{
+    background-color: $colorDark;
+    border-top: 1px solid white;
+    color:white;
+    padding: 20px;
+    font-size: small;
+    font-weight: 300;
+}
+
+.divImgsTxtsFooter{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.divImgTxtFooter{
+    display: flex;
+    gap:10px;
+    align-items: flex-start;
+}
+
+.divImgTxtFooter img{
+    width: 25px;
+    height: 30px;
+}

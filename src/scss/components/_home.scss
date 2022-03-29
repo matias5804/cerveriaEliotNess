@@ -1,0 +1,55 @@
+.fondoUno{
+    background-image: url('../../assets/img/pictures/homeMobile.jpg');
+    background-repeat: round;
+    border: 1px solid black;
+    height: 670px;
+    color: $colorWhite;
+}
+
+.divCta{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 110px 20px 0 20px;
+}
+
+.divCta h1{
+ font-size: xx-large;
+ font-family: 'Oswald', sans-serif;
+ font-family: 'Work Sans', sans-serif;
+}
+
+.divCta h1 span{
+    color: $colorPri;
+    font-size: xxx-large;
+}
+.cervezaCTA{
+    width: 185px;
+
+}
+.divBtnCta{
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    gap: 20px;
+    justify-content: center;
+}
+.divBtnCta a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    padding: 10px;
+}
+
+.divImgBtnCta{
+    display: flex;
+    padding: 25px;
+}
+
+
+@media(min-width: 425px){
+    .cervezaCTA{
+        width: 220px;
+    }
+}
