@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/matias5804/cerveriaEliotNess/static/css/main.1bef867c.css",
+    "main.js": "/matias5804/cerveriaEliotNess/static/js/main.df920d81.js",
+    "static/media/homeCerveza.png": "/matias5804/cerveriaEliotNess/static/media/homeCerveza.0c84c2be826ce895b1c4.png",
+    "static/media/fondoClaro.jpg": "/matias5804/cerveriaEliotNess/static/media/fondoClaro.9d1c15a73bc82024127f.jpg",
+    "static/media/fondoTresopaco.jpg": "/matias5804/cerveriaEliotNess/static/media/fondoTresopaco.4afbe06c0b86123c776b.jpg",
+    "static/media/footerF.png": "/matias5804/cerveriaEliotNess/static/media/footerF.2b92144f34dae806481b.png",
+    "static/media/barrilesCervezaDos.png": "/matias5804/cerveriaEliotNess/static/media/barrilesCervezaDos.1fcd9cbac3d4b6e388c8.png",
+    "static/media/homeMobile.jpg": "/matias5804/cerveriaEliotNess/static/media/homeMobile.fd9146a10870e2dae81b.jpg",
+    "static/media/barrilesCerveza.png": "/matias5804/cerveriaEliotNess/static/media/barrilesCerveza.87ad63578d4f993bed7a.png",
+    "static/media/molienda.png": "/matias5804/cerveriaEliotNess/static/media/molienda.58e23952d041ab5ab4c6.png",
+    "static/media/fermentacion.png": "/matias5804/cerveriaEliotNess/static/media/fermentacion.8b168ec0be820b030ea5.png",
+    "static/media/filtrado.png": "/matias5804/cerveriaEliotNess/static/media/filtrado.fde2f75335eb6e17382e.png",
+    "static/media/brandH.png": "/matias5804/cerveriaEliotNess/static/media/brandH.4ee34a47e03961f3e72f.png",
+    "static/media/irishRed.png": "/matias5804/cerveriaEliotNess/static/media/irishRed.c9bbc5ff5db803ca0127.png",
+    "static/media/ipa.png": "/matias5804/cerveriaEliotNess/static/media/ipa.63ec89f3bae6f6c780dd.png",
+    "static/media/dobleIpa.png": "/matias5804/cerveriaEliotNess/static/media/dobleIpa.90eafdb3d580d50093ad.png",
+    "static/media/honey.png": "/matias5804/cerveriaEliotNess/static/media/honey.0c2dbeb54800feca004b.png",
+    "static/media/brandMenuAbierto.png": "/matias5804/cerveriaEliotNess/static/media/brandMenuAbierto.964e63796b8d9def3835.png",
+    "static/media/amBlonde.png": "/matias5804/cerveriaEliotNess/static/media/amBlonde.a81b816752cfe0a54ddc.png",
+    "static/media/apa.png": "/matias5804/cerveriaEliotNess/static/media/apa.e291f53c4bbc585c8260.png",
+    "static/media/tntIpa.png": "/matias5804/cerveriaEliotNess/static/media/tntIpa.8019d2083d9ec233e622.png",
+    "static/media/golden.png": "/matias5804/cerveriaEliotNess/static/media/golden.b4a0e8715a07190d9f07.png",
+    "static/media/barril.png": "/matias5804/cerveriaEliotNess/static/media/barril.171cf7c080cac421229f.png",
+    "static/media/location.png": "/matias5804/cerveriaEliotNess/static/media/location.3f270c79d615529245ff.png",
+    "index.html": "/matias5804/cerveriaEliotNess/index.html",
+    "main.1bef867c.css.map": "/matias5804/cerveriaEliotNess/static/css/main.1bef867c.css.map",
+    "main.df920d81.js.map": "/matias5804/cerveriaEliotNess/static/js/main.df920d81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bef867c.css",
+    "static/js/main.df920d81.js"
+  ]
+}
