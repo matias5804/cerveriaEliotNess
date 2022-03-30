@@ -6,6 +6,7 @@ import Tienda from './Tienda'
 import Variedades from '../variedades/Variedades'
 import Carousel from '../carousel/Carousel'
 import SectionOne from '../seccionUno/SectionOne'
+import SectionTwo from '../seccionDos/SectionTwo'
 const Home = () => {
   return (
     <div>
@@ -29,6 +30,8 @@ const Home = () => {
         <Variedades/>
         <Carousel/>
         <SectionOne/>
+        <SectionTwo/>
+        
       </div>
 
     </div>

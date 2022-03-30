@@ -1,16 +1,15 @@
 .swiper {
-   
-    height: 450px;
-    background-image: url('../../assets/img/pictures/variedades.png');
-    background: #183c55;
-
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background-image: url('../../assets/img/pictures/variedades.png');
-    background: #183c55;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
   
     /* Center slide text vertically */
     display: -webkit-box;
@@ -26,16 +25,3 @@
     -webkit-align-items: center;
     align-items: center;
   }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .divPSlider h3{
-    color: $colorWhite;
-    margin: 20px;
-  }
-  

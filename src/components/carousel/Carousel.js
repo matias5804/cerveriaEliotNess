@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import '../../scss/styles.scss'
+import '../../scss/components/_carousel.scss'
 import imgIpa from  '../../assets/img/products/ipa.png'
 import imgDIpa from  '../../assets/img/products/dobleIpa.png'
 import imgAmBlonde from  '../../assets/img/products/amBlonde.png'
