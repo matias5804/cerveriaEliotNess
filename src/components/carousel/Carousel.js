@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
-import '../../scss/components/_carousel.scss'
+import  "./carouselUno.css"
 import imgIpa from  '../../assets/img/products/ipa.png'
 import imgDIpa from  '../../assets/img/products/dobleIpa.png'
 import imgAmBlonde from  '../../assets/img/products/amBlonde.png'
@@ -10,16 +10,15 @@ import imgApa from  '../../assets/img/products/apa.png'
 import imgirishRed from  '../../assets/img/products/irishRed.png'
 import imgTntIpa from  '../../assets/img/products/tntIpa.png'
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+
 //import  { useRef, useState } from "react";
 // Import Swiper React components
 
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay'
 
 
 
@@ -28,7 +27,7 @@ import { Navigation } from "swiper";
 
 const Carousel = () => {
   return (
-    <>
+    <div className="divSwiper">
     <Swiper
       // install Swiper modules
       modules={[Navigation ]}
@@ -39,7 +38,7 @@ const Carousel = () => {
    
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
-    > 
+      className="swiperUno"    > 
 
         <SwiperSlide className='mySwiper'>
             <div className='divCardSlider'>
@@ -130,7 +129,7 @@ const Carousel = () => {
         </SwiperSlide>
 
       </Swiper>
-    </>
+    </div>
   )
 }
 

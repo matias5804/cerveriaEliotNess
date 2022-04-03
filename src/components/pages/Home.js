@@ -32,6 +32,7 @@ const Home = () => {
         <SectionOne/>
         <SectionTwo/>
         
+        
       </div>
 
     </div>

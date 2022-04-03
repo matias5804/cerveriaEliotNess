@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../scss/styles.scss'
 import vasoMano from '../../assets/img/pictures/vasoMano.png'
+import CarouselDos from '../carousel/CarouselDos'
+import CarouselTres from '../carousel/CarouselTres'
 
 
 const SectionTwo = () => {
@@ -36,11 +38,18 @@ const SectionTwo = () => {
             <h3>Compartí unas pintas, chops, tanques o cañas con tus amigxs recorriendo los bares y cervecerías que ofrecen nuestra cerveza.</h3>
           </div>
 
+          <CarouselDos/>
+
 
 
         </div>
 
         <div className='divSectionTresSDos'>
+          <div>
+            <h3>¿Qué dicen nuestros clientes?</h3>
+            <img src='' alt=''/>
+          </div>
+          <CarouselTres/>
 
         </div>
     </div>

@@ -27,6 +27,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: relative;
 }
 
 .divDivSectionInfo{
@@ -64,7 +65,7 @@
 .imgSectionUno{
     position: absolute;
     left: 18%;
-    top: 250%;
+    top: 27%;
     opacity: 0.2;
 
 }
