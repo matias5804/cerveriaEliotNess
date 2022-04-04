@@ -119,3 +119,61 @@
     transition: ease-in .5s;
     cursor: pointer;
 }
+
+@media(min-width: 1024px){
+    .divBrandBurguer{
+        position: relative;
+    }
+    .divVacio{
+        display: inline;
+        display: flex;
+        gap: 20px;
+    }
+
+    .iconNav{
+       width: 25px;
+       height: 25px;
+    }
+
+    .vacioDos{
+        position: absolute;
+        left:35px;
+        top: 35px;
+    }
+    .vacioUno{
+        position: absolute;
+        right: 140px;
+        top: 35px;
+    }
+
+    .iconUno{
+        background-image:url('../../assets/img/icon/faceNaranja.png');
+        background-size: cover;
+    }
+    .iconUno:hover{
+        background-image:url('../../assets/img/icon/faceBlanco.png');
+    }
+    .iconDos{
+        background-image:url('../../assets/img/icon/instaNaranja.png');
+        background-size: cover;
+    }
+    .iconDos:hover{
+        background-image:url('../../assets/img/icon/instaBlanco.png');
+    }
+
+    .iconTres{
+        background-image:url('../../assets/img/icon/usuarioNaranja.png');
+        background-size: cover;
+    }
+    .iconTres:hover{
+        background-image:url('../../assets/img/icon/usuarioBlanco.png');
+    }
+
+    .iconCuatro{
+        background-image:url('../../assets/img/icon/carritoNaranja.png');
+        background-size: cover;
+    }
+    .iconCuatro:hover{
+        background-image:url('../../assets/img/icon/carritoBlanco.png');
+    }
+}

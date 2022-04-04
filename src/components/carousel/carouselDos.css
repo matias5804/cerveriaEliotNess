@@ -24,15 +24,16 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    padding: 10px;
+    padding: 30px;
   }
   
   .divCardSliderDos{
     display: flex;
     background: none;
-    width: 340px;
+    width: 280px;
     gap: 10px;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .divImgInfo img{
@@ -42,15 +43,19 @@
 
 .divCardSliderDos h3{
     font-size: medium;
-
 }
 
 .divCardSliderDos h4{
     font-size: small;
     font-weight: 400;
     color: black;
+    width:190px ;
 }
 
 .divCardSliderDos {
     text-align: start;
+}
+
+@media(min-width: 768px){
+
 }

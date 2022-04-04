@@ -3,6 +3,8 @@ import '../../scss/styles.scss'
 import vasoMano from '../../assets/img/pictures/vasoMano.png'
 import CarouselDos from '../carousel/CarouselDos'
 import CarouselTres from '../carousel/CarouselTres'
+import trigo from '../../assets/img/icon/trigoNegro.png'
+import trigoNaranja from '../../assets/img/icon/trigoNaranja.png'
 
 
 const SectionTwo = () => {
@@ -33,8 +35,8 @@ const SectionTwo = () => {
 
         <div className='divSectionDosSDos'>
           <div className='divTitleSectionDosSDos'>
-            <img src='' alt=''/>
-            <h1>¿Donde Comprar?</h1>
+            <img className='trigo' src={trigo} alt='trigo'/>
+            <h1>¿Dónde Comprar?</h1>
             <h3>Compartí unas pintas, chops, tanques o cañas con tus amigxs recorriendo los bares y cervecerías que ofrecen nuestra cerveza.</h3>
           </div>
 
@@ -45,9 +47,9 @@ const SectionTwo = () => {
         </div>
 
         <div className='divSectionTresSDos'>
-          <div>
-            <h3>¿Qué dicen nuestros clientes?</h3>
-            <img src='' alt=''/>
+          <div className='divDivSectionTresSDos'>
+            <img className='trigo' src={trigoNaranja} alt='trigo'/>
+            <h1>¿Qué dicen nuestros clientes?</h1>
           </div>
           <CarouselTres/>
 

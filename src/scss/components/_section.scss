@@ -1,6 +1,6 @@
 .divSection{
     width: 100%;
-    height:3300px;
+    height:3315px;
     background-image: url("../../assets/img/pictures/fondoTresopacoD.jpg");
     background-size: auto;
     background-attachment: fixed;
@@ -33,7 +33,8 @@
 .divDivSectionInfo{
     display: flex;
     flex-direction: column;
-    gap: 40px; 
+    gap: 20px; 
+    align-items: center;
 }
 
 .divDivSectionInfo span{
@@ -106,9 +107,15 @@
 .divSectionTres{
     background-image: url("../../assets/img/pictures/fondoClaro.jpg");
     width: 100%;
-    height:2085px;
-    padding: 65px 10px;
+    height: 2085px;
+    padding: 15px 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
+
 .circulo{
     width: 150px;
     height: 150px;
@@ -148,4 +155,108 @@
 .divEtapaFabrica img{
     width: 200px;
     z-index: 2;
+}
+
+@media(min-width: 425px){
+    .divSection{
+        height: 3200px;
+    }
+    .divSectionUno{
+        height: 600px;
+    }
+    .divSectionTres{
+        height: 2010px;
+    }
+    
+}
+
+@media(min-width: 600px){
+    .imgSectionUno{
+        left: 33%;
+        top: 9%;
+    }
+    .divSection {
+        height: 2980px;
+    }
+    .divSectionUno{
+        height: 530px;
+    }
+    .divSectionDos{
+        height: 550px;
+    }
+
+
+
+}
+
+@media(min-width: 768px){
+   
+    .divDivSectionInfo h1{
+        font-size: 45px;
+    }
+    .divDivSectionInfo p{
+        font-size: x-large;
+        padding: 0 50px;
+    }
+    .divSectionUno {
+        height: 620px;
+    }
+    .imgSectionUno {
+        top: 35%;
+    }
+    .divDivSectionBtn button {
+    font-size: large;
+    }
+
+    .divSection{
+        background-image: url("../../assets/img/pictures/fondoTresopacoD.jpg");
+        height: 2480px;
+        background-size: cover;
+    }
+
+    .divSectionDos{
+        flex-direction: row;
+        padding: 60px;
+        gap: 20px;
+        height: 390px;
+    }
+    
+    .divPedirCerveza{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+
+    }
+    
+    .divPedirCerveza p{
+        font-size: large;
+    }
+
+    .divPedirCerveza button{
+        width: 170px;
+        font-size: larger;
+    }
+    .divSectionFabrica{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .divSectionTres {
+        justify-content: center;
+        gap: 40px;
+        height: 1475px;
+    }
+    .divEtapaFabrica{
+        padding: 0 20px;
+    }
+    .divEtapaFabrica img{
+        height: 55%;
+
+    }
+    
+
+
 }

@@ -7,6 +7,8 @@ import Variedades from '../variedades/Variedades'
 import Carousel from '../carousel/Carousel'
 import SectionOne from '../seccionUno/SectionOne'
 import SectionTwo from '../seccionDos/SectionTwo'
+import imgLupuloCTAUno from '../../assets/img/icon/lupuloCTAleft.png'
+import imgLupuloCTADos from '../../assets/img/icon/lupuloCTAright.png'
 const Home = () => {
   return (
     <div>
@@ -18,6 +20,7 @@ const Home = () => {
           Ofertas para almacenes, bares y restaurantes.<br/>
           Servicio de Alquiler de Choperas de Cerveza Artesanal.</p>
         </div>
+
         <div className='divImgBtnCta'>
           <img src={cerveza} className="cervezaCTA" alt='cerveza'/>
           <div className='divBtnCta'>
@@ -25,14 +28,18 @@ const Home = () => {
             <Link to="">Variedades</Link>
           </div>
         </div>
+
+        <div className='divLupuloCTA'>
+          <img className='lupuloCTA' src={imgLupuloCTAUno} alt='lupulo'/>
+          <img className='lupuloCTA' src={imgLupuloCTADos} alt='lupulo'/>
+        </div>
       </div>
+
       <div className='fondoDos variedades'>
         <Variedades/>
         <Carousel/>
         <SectionOne/>
         <SectionTwo/>
-        
-        
       </div>
 
     </div>

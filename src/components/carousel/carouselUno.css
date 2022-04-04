@@ -1,15 +1,11 @@
 .divSwiper{
     background-image: url('../../assets/img/pictures/variedades.png');
     background: #183c55;
-    width: 100%;
-
-
-    
 }
+
 .swiperUno {
     padding: 30px 0 50px 0 !important;
      background: #183c55;
-
 }
    
    .swiper-slide {
@@ -33,18 +29,12 @@
      align-items: center;
    }
    
-   .swiper-slide img {
-     display: block;
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
-   }
+
 
 
 
    .divImgCer img{
-       width: 250px;
-
+      width: 250px;
    }
  
  
@@ -52,4 +42,16 @@
      color: white;
      margin: 20px;
    }
+
+@media(min-width: 768px){
+  .swiperUno {
+    padding: 30px 0 50px 30px !important;
+  }
+  .mySwiperCerveza{
+    width: 600px;
+  }
+
+
+}
+
    

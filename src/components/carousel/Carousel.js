@@ -31,16 +31,24 @@ const Carousel = () => {
     <Swiper
       // install Swiper modules
       modules={[Navigation ]}
-      spaceBetween={50}
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
+      breakpoints={{
+          spaceBetween:10,
+        // when window width is >= 768px
+        768: {
+          
+          slidesPerView: 2,
+          spaceBetween:10,
+        },
+      }}
    
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
       className="swiperUno"    > 
 
-        <SwiperSlide className='mySwiper'>
+        <SwiperSlide className='mySwiperCerveza'>
             <div className='divCardSlider'>
                 <div className='divImgCer'>
                     <img src={imgIpa} alt='Ipa'/> 
@@ -51,7 +59,7 @@ const Carousel = () => {
             </div>
         </SwiperSlide>
 
-        <SwiperSlide className='mySwiper'>
+        <SwiperSlide className='mySwiperCerveza'>
             <div className='divCardSlider'>
                 <div className='divImgCer'>
                     <img src={imgDIpa} alt='Ipa'/> 
@@ -62,18 +70,7 @@ const Carousel = () => {
             </div>
         </SwiperSlide>
 
-        <SwiperSlide>
-            <div className='divCardSlider'>
-                <div className='divImgCer'>
-                    <img src={imgAmBlonde} alt='American blonde'/> 
-                </div>
-                <div className='divPSlider'>
-                    <h3>AMERICAN BLONDE</h3> 
-                </div>
-            </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
+        <SwiperSlide  className='mySwiperCerveza'>
             <div className='divCardSlider'>
                 <div className='divImgCer'>
                     <img src={imgTntIpa} alt='IpaTnt'/> 
@@ -84,7 +81,7 @@ const Carousel = () => {
             </div>
         </SwiperSlide>
         
-        <SwiperSlide>
+        <SwiperSlide  className='mySwiperCerveza'>
             <div className='divCardSlider'>
                 <div className='divImgCer'>
                     <img src={imgGolden} alt='Ipa'/> 
@@ -95,7 +92,7 @@ const Carousel = () => {
             </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide  className='mySwiperCerveza'>
             <div className='divCardSlider'>
                 <div className='divImgCer'>
                     <img src={imgirishRed} alt='Ipa'/> 
@@ -106,7 +103,7 @@ const Carousel = () => {
             </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide  className='mySwiperCerveza'>
             <div className='divCardSlider'>
                 <div className='divImgCer'>
                     <img src={imgHoney} alt='Ipa'/> 
@@ -117,7 +114,7 @@ const Carousel = () => {
             </div>
         </SwiperSlide>
 
-        <SwiperSlide>
+        <SwiperSlide  className='mySwiperCerveza'>
             <div className='divCardSlider'>
                 <div className='divImgCer'>
                     <img src={imgApa} alt='Ipa'/> 

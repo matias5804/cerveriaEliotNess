@@ -1,7 +1,7 @@
 .divSectionSDos{
     
     width: 100%;
-    height:1800px;
+    height:2000px;
     background-image: url("../../assets/img/pictures/fondoTresopacoD.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -83,7 +83,7 @@
     height:630px;
     background-image: url("../../assets/img/pictures/fondoClaro.jpg");
     text-align: center;
-    padding: 70px 20px;
+    padding: 50px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,8 +95,8 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding: 0 20px;
+    gap: 35px;
+    padding: 0 15px;
 }
 
 .divTitleSectionDosSDos h3{
@@ -111,8 +111,58 @@
     padding: 50px 10px 50px 10px;
 }
 
-.divSectionTresSDos h3{
-    font-size: x-large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 300;
+
+.trigo{
+    width: 170px;
+    padding: 10px;
 }
+.divDivSectionTresSDos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+@media(min-width: 425px){
+    .imgSectionUnoSDos{
+        width: 480px;
+    }
+}
+
+@media(min-width: 600px){
+
+    .divSectionUnoSDos{
+        height: 470px;
+        padding-top: 80px;
+    }
+    .imgSectionUnoSDos {
+
+        right: -20px;
+        bottom: -50px;
+    }
+    .divSectionSDos{
+        height: 1730px;
+    }
+}
+@media(min-width: 768px){
+    .divDivSectionInfoSDos{
+        padding: 20px;
+    }
+    .divDivSectionInfoSDos p{
+        font-size: x-large;
+    }
+    .divSectionUnoSDos {
+        height: 566px;
+    }    
+    .divDivSectionBtnSDos button {
+        width: 135px;
+        font-size: x-large;
+    }
+    .divSectionSDos {
+        height: 1800px;
+    }
+    .divSectionTresSDos{
+        padding: 50px;
+    } 
+} 

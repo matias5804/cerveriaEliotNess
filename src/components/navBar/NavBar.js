@@ -9,16 +9,29 @@ import LaFabrica from '../pages/LaFabrica'
 import Delivery from '../pages/Delivery'
 import Tienda from '../pages/Tienda'
 
+
 const NavBar = () => {
   return (
     <div className='header'>
 
         <div className="divBrandBurguer">
-          <div className="divVacio"></div>
+          <div className='divVacio'></div>
+          <div className="divVacio vacioDos">
+            <div className='iconNav iconUno'></div>
+            <div className='iconNav iconDos'></div>
+          </div>
+
           <div>
             <Link to={<Home/>}>
               <img src={Brand} className="brand" alt="brand"/>
             </Link>
+          </div>
+
+          <div className="divVacio vacioUno">
+
+            <div className='iconNav iconTres'></div>
+            <div className='iconNav iconCuatro'></div>
+
           </div>
 
           <label  className="icon-menu" for="btn-menu"><div className="divBurguer"></div> </label>
@@ -44,3 +57,9 @@ const NavBar = () => {
 }
 
 export default NavBar
+
+/**            <img src={iconInsta} alt='instagram'/>
+            <img src={iconface} alt='facebook'/> 
+                        <img src={iconUsuario} alt=''/>
+            <img src={iconCarrito} alt=''/>
+            */

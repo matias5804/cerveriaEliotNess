@@ -6,6 +6,7 @@ import imgMolienda from '../../assets/img/pictures/molienda.png'
 import imgFiltrado from '../../assets/img/pictures/filtrado.png'
 import imgFermentacion from '../../assets/img/pictures/fermentacion.png'
 import imgEmbotellado from '../../assets/img/pictures/barrilesCervezaDos.png'
+import trigo from '../../assets/img/icon/trigoNegro.png'
 
 
 
@@ -44,12 +45,15 @@ const SectionOne = () => {
                     <span>LTs/Mensuales</span>
                 </h2>
             </div>
-            <p> Desde 2017, nuestros cerveceros han desarrollado y mejorado <span>7 exquisitas receras de cerveza artesanal</span>, que vienen satifaciendo el paladar de nuestros clientes.</p>
-            <button>Pedir Cerveza</button>
+            <div className='divPedirCerveza'>
+                <p> Desde 2017, nuestros cerveceros han desarrollado y mejorado <span>7 exquisitas receras de cerveza artesanal</span>, que vienen satifaciendo el paladar de nuestros clientes.</p>
+                <button>Pedir Cerveza</button>
+            </div>
         </div>
 
         <div className='divSectionTres'>
             <div className='divDivSectionInfo'>
+                <img className='trigo' src={trigo} alt='trigo'/>
                 <h1>Fabrica de Cerveza Artesanal<br/>
                     <span>Eliot Ness</span>
                 </h1>
@@ -84,6 +88,7 @@ const SectionOne = () => {
                 </div>
             </div>
 
+            <img className='trigo' src={trigo} alt='trigo'/>
         </div>
     </div>
   )
