@@ -26,6 +26,7 @@ const Home = () => {
           <div className='divBtnCta'>
             <Link to={<Tienda/>}>Comprar</Link>
             <Link to="">Variedades</Link>
+            
           </div>
         </div>
 

@@ -7,6 +7,7 @@ import imgFiltrado from '../../assets/img/pictures/filtrado.png'
 import imgFermentacion from '../../assets/img/pictures/fermentacion.png'
 import imgEmbotellado from '../../assets/img/pictures/barrilesCervezaDos.png'
 import trigo from '../../assets/img/icon/trigoNegro.png'
+import chopera from '../../assets/img/pictures/choperaMaori.jpg'
 
 
 
@@ -17,7 +18,7 @@ const SectionOne = () => {
             
 
             <div className='divImgSection'>
-                <img src='' alt=''/>
+                <img src={chopera} alt='chopera'/>
             </div>
 
             <div className='divDivSection'>
@@ -25,9 +26,9 @@ const SectionOne = () => {
                     <h1>Alquiler de Choperas <br/>
                         <span>Cerveza Artesanal</span>
                     </h1>
-                    <p>Alquiler de Choperas de Cerveza Artesanal para tu evento o fiesta! Barriles de 50, 30, 20 y 10lts. Sistema con canillas de acero o Canilla Americana (manguera plástica). Disfruta de cualquiera de nuestros estilos en tu evento.<br/><br/><br/><br/>
-                    ¿Que esperas para hacer tu reserva?
-                    </p>    
+                    <p>Alquiler de Choperas de Cerveza Artesanal para tu evento o fiesta! Barriles de 50, 30, 20 y 10lts. Sistema con canillas de acero o Canilla Americana (manguera plástica). Disfruta de cualquiera de nuestros estilos en tu evento.</p>    
+
+                    <p>¿Que esperas para hacer tu reserva?</p>
                 </div>                
                 <div className='divDivSectionBtn'>
                     <button> Más Info</button>
@@ -88,7 +89,7 @@ const SectionOne = () => {
                 </div>
             </div>
 
-            <img className='trigo' src={trigo} alt='trigo'/>
+            <img className='trigo trigoDown' src={trigo} alt='trigo'/>
         </div>
     </div>
   )

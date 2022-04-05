@@ -1,13 +1,14 @@
 import React from 'react'
 import iconTelefono from  '../../assets/img/icon/phone.png'
 import iconLocation from  '../../assets/img/icon/location.png'
+import brand from '../../assets/img/icon/brandH.png'
 
 const Footer = () => {
   return (
     <>
       <div className='footer'>
         <div className='divBrandPFooter'>
-          <img src='' alt='brand'/>
+          <img src={brand} alt='brand'/>
           <p>
             Somos un grupo de cerveceros de Zona Oeste, Gran Buenos Aires y estamos enfocados en fabricar cerveza artesanal de calidad. Así que nunca faltara dedicación y precisión en cada vaso de Cerveza Eliot Ness porque amamos este proceso.
           </p>
@@ -50,8 +51,8 @@ const Footer = () => {
 
           <div className='divRedesFooter'>
             <div>
-              <img src={""} alt=''/>
-              <img src='' alt=''/>
+              <div className='iconNav iconUno'></div>
+              <div className='iconNav iconDos'></div>
             </div>
             <p>Distribuidores de Cerveza Artesanal</p>
           </div>

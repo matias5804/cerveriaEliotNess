@@ -1,8 +1,8 @@
 .divSection{
     width: 100%;
-    height:3315px;
+    height:3295px;
     background-image: url("../../assets/img/pictures/fondoTresopacoD.jpg");
-    background-size: auto;
+    background-size: cover;
     background-attachment: fixed;
  
 }
@@ -10,10 +10,10 @@
 
 .divSectionUno{
     width: 100%;
-    height:630px;
+    height:530px;
     background-image: url("../../assets/img/pictures/fondoFabrica.jpg");
     background-size: cover;
-    padding: 50px 20px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -28,6 +28,8 @@
     flex-direction: column;
     gap: 20px;
     position: relative;
+    width:345px ;
+    margin: 0 auto;
 }
 
 .divDivSectionInfo{
@@ -35,6 +37,7 @@
     flex-direction: column;
     gap: 20px; 
     align-items: center;
+    margin-top: 30px;
 }
 
 .divDivSectionInfo span{
@@ -75,18 +78,27 @@
 
     width: 100%;
     height:600px;
-    border: 1px solid black;
     text-align: center;
     padding: 70px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
-
 }
-.divSectionDos h2,
+.divPedirCerveza{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.divSectionDos h2{
+    color: white;
+}
 .divSectionDos p{
     color: white;
+    font-size: large;
+    padding: 0 20px;
+    margin-bottom: 25px;
+
 }
 .divSectionDos img{
     width: 260px;
@@ -95,8 +107,9 @@
     border: 2px solid white;
     text-decoration: none;
     color: white;
-    
-    padding: 15px;
+    width: 150px;
+    margin: 0 auto;
+    padding: 13px;
     background-color: transparent;
     font-size: medium;
 }
@@ -107,13 +120,13 @@
 .divSectionTres{
     background-image: url("../../assets/img/pictures/fondoClaro.jpg");
     width: 100%;
-    height: 2085px;
+    height: 2165px;
     padding: 15px 10px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+
 }
 
 .circulo{
@@ -130,7 +143,7 @@
     padding: 50px 0px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
 }
 
 
@@ -140,6 +153,7 @@
     gap: 20px;
     align-items: center;
     position: relative;
+    padding: 0 20px;
 
 }
 
@@ -156,17 +170,30 @@
     width: 200px;
     z-index: 2;
 }
+.trigoDown{
+    position: absolute;
+    bottom: 1%;
+}
 
 @media(min-width: 425px){
     .divSection{
-        height: 3200px;
+        height: 3275px;
     }
     .divSectionUno{
-        height: 600px;
+        height: 490px;
+        padding: 0;
     }
     .divSectionTres{
-        height: 2010px;
+        height: 2200px;
     }
+    .divEtapaFabrica p{
+        width: 290px;
+    }
+    .trigoDown {
+
+        bottom: 2%;
+    }
+
     
 }
 
@@ -176,17 +203,17 @@
         top: 9%;
     }
     .divSection {
-        height: 2980px;
+        height: 3150px;
     }
     .divSectionUno{
-        height: 530px;
+        height: 405px;
     }
     .divSectionDos{
         height: 550px;
     }
-
-
-
+    .divDivSection{
+        width: 580px;
+    }
 }
 
 @media(min-width: 768px){
@@ -199,34 +226,20 @@
         padding: 0 50px;
     }
     .divSectionUno {
-        height: 620px;
+        height: 530px;
     }
-    .imgSectionUno {
-        top: 35%;
-    }
-    .divDivSectionBtn button {
-    font-size: large;
-    }
-
-    .divSection{
-        background-image: url("../../assets/img/pictures/fondoTresopacoD.jpg");
-        height: 2480px;
-        background-size: cover;
-    }
-
-    .divSectionDos{
+    .divSectionDos {
+        height: 350px;
+        display: flex;
         flex-direction: row;
-        padding: 60px;
-        gap: 20px;
-        height: 390px;
+        padding: 40px;
+        gap:0;
     }
     
     .divPedirCerveza{
         display: flex;
         flex-direction: column;
-        gap: 35px;
         align-items: center;
-
     }
     
     .divPedirCerveza p{
@@ -240,6 +253,7 @@
     .divSectionFabrica{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        width: 100%;
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
@@ -247,16 +261,71 @@
     .divSectionTres {
         justify-content: center;
         gap: 40px;
-        height: 1475px;
+        height: 1375px;
     }
     .divEtapaFabrica{
         padding: 0 20px;
     }
     .divEtapaFabrica img{
         height: 55%;
-
     }
-    
+    .divDivSection {
+        width: 750px;
+    }
+    .divSection {
+        height: 2250px;
+    }
+}
 
+@media(min-width: 1024px){
+    .divImgSection{
+        display: inline;
+        width: 40%;
+        height: 100%;
+        background-image: url(../../assets/img/pictures/choperaMaori.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .divSectionUno{
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        gap: 0;
+        padding: 0;
+        height: 575px;
+    }
+    .divImgSection img{
+        display: none;
+    }
+    .divDivSection{
+        width: 70%;
+        padding: 15px 0;
+    }
+    .divDivSectionInfo{
+        padding-top: 25px;
+    }
+    .divSectionDos h2{
+        font-size: xx-large;
+    } 
+    .divPedirCerveza{
+        gap:60px;
+    }
+    .divPedirCerveza p {
+        font-size: x-large;
+    }
+    .divPedirCerveza button {
+        width: 200px;
+        font-size: x-large;
+    }
+    .divDivSectionBtn button {
+        font-size: x-large;
+        width: 165px;
+    }
 
 }
+
+@media(min-width: 1200px){
+
+
+}    

@@ -25,26 +25,28 @@ const CarouselDos = () => {
     return (
         <>
           <Swiper
-            slidesPerView={2}
+            slidesPerView={1}
             grid={{
               rows: 2,
             }}
             navigation
             spaceBetween={30}
             breakpoints={{
+                768: {
+                    width: 768,
+                    slidesPerView: 2,
+                    grid:{
+                        rows: 2,
+                    }
+                  },
 
                 // when window width is >= 768px
-                768: {
-                  width: 768,
-                  slidesPerView: 2,
-
-                },
-              }}
+            }}
 
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
             modules={[Grid, Navigation]}
-            className="SwiperDos"
+            className="SwiperDosDos"
           >
             <SwiperSlide>
                 <div className='divCardSliderDos'>

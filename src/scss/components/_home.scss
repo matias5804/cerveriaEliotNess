@@ -3,6 +3,7 @@
     background-repeat: round;
     height: 670px;
     color: $colorWhite;
+    position: relative;
 }
 
 .divCta{
@@ -22,9 +23,11 @@
     color: $colorPri;
     font-size: xxx-large;
 }
-.cervezaCTA{
-    width: 185px;
-
+.cervezaCTA {
+    width: 205px;
+    position: absolute;
+    left: 10%;
+    bottom: 8%;
 }
 .divBtnCta{
     display: flex;
@@ -32,6 +35,9 @@
     width: 130px;
     gap: 20px;
     justify-content: center;
+    position: absolute;
+    left: 60%;
+    bottom: 16%;
 }
 .divBtnCta a{
     border: 1px solid white;
@@ -54,7 +60,19 @@
 
 @media(min-width: 425px){
     .cervezaCTA{
+        right: 18%;  
+        width: 225px;
+        left: 13%;
+    }
+}
+@media(min-width: 525px){
+    .divBtnCta{
         width: 220px;
+        bottom: 17%;
+    }
+    .cervezaCTA{
+        width: 245px;
+        left: 15%;
     }
 }
 
@@ -80,13 +98,13 @@
 
 @media(min-width: 768px){
     .cervezaCTA{
-        width: 340px;
+        width: 360px;
     }
     .fondoUno{
         height: 870px;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-start;
     }
     .fondoUno h1{
         font-size: 45px;
@@ -112,6 +130,15 @@
         justify-content: space-between;
     }
 }
+@media(min-width: 950px){
+    .cervezaCTA{
+        width: 390px;
+        left: 21%;
+    }
+    .divBtnCta{
+        bottom: 24%;
+    }
+}
 @media(min-width: 1024px){
 
     .fondoUno{
@@ -119,7 +146,8 @@
         background-image: url('../../assets/img/pictures/home.jpg');
         background-repeat: round;
         justify-content: center;
-        height: 600px;
+        height: 655px;
+        position: relative;
     }
     .divImgBtnCta{
         flex-direction: column-reverse;
@@ -129,16 +157,42 @@
         padding: 0;
     }
     .divBtnCta{
+        position: absolute;
         display: flex;
         flex-direction: row;
+        left: 25%;
+        bottom: 15%;
     }
     .divCta {
-        padding: 130px 0 0 0;
-        width: 405px;
-
-        gap: 45px;
+        padding: 131px 30% 0 0;
+        width: 75%;
+        gap: 20px;
     }
     .divImgBtnCta img{
-        width: 320px;
+        position: absolute;
+        bottom: 8%;
+        left: 53%;
+        width: 423px;
     }
+}
+
+@media(min-width: 1200px){
+    .fondoUno{
+        height: 770px;
+    }
+    .divBtnCta h1 span{
+        font-size: 70px;
+    }
+    .divCta {
+        padding: 174px 30% 0px 0;
+        width: 64%;
+        gap: 30px;
+    }
+    .divBtnCta{
+        left:27%;
+    }
+    .divImgBtnCta img {
+        width: 450px;
+    }
+    
 }

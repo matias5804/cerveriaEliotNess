@@ -22,6 +22,15 @@ const CarouselTres = () => {
     return (
         <>
           <Swiper navigation={true} modules={[Navigation]} 
+            breakpoints={{
+                spaceBetween:10,
+                // when window width is >= 768px
+                768: {
+                
+                slidesPerView: 2,
+                spaceBetween:10,
+                },
+            }}
 
           className="mySwiper">
             <SwiperSlide >

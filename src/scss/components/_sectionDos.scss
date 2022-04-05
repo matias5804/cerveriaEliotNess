@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    position: relative;
 
 }
 
@@ -27,7 +28,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    position: relative;
 }
 
 .divDivSectionInfoSDos{
@@ -61,7 +61,8 @@
 .imgSectionUnoSDos{
     position: absolute;
     opacity: 0.2;
-    bottom: -40px;
+    bottom: 0px;
+    right: 0;
     width: 342px;
     overflow: hidden;
 }
@@ -126,7 +127,7 @@
 
 @media(min-width: 425px){
     .imgSectionUnoSDos{
-        width: 480px;
+        width: 100%;
     }
 }
 
@@ -135,11 +136,10 @@
     .divSectionUnoSDos{
         height: 470px;
         padding-top: 80px;
+        position: relative;
     }
     .imgSectionUnoSDos {
-
-        right: -20px;
-        bottom: -50px;
+        width: 63%;
     }
     .divSectionSDos{
         height: 1730px;
@@ -160,9 +160,65 @@
         font-size: x-large;
     }
     .divSectionSDos {
-        height: 1800px;
+        height: 1950px;
     }
     .divSectionTresSDos{
         padding: 50px;
     } 
+    .divTitleSectionDosSDos h3 {
+        width: 600px;
+    }
 } 
+
+
+@media(min-width: 1024px){
+    .divDivSectionUnoSDos{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        gap: 0;
+        padding: 0;
+        height: 575px;
+    }
+    .divSectionUnoSDos {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        gap: 0;
+        padding: 0;
+        height: 470px;
+    }
+    .divImgSectionSDos {
+        display: inline;
+        width: 40%;
+        height: 100%;
+        background-image: url('../../assets/img/pictures/pub.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .divDivSectionSDos {
+        width: 70%;
+        padding: 15px 0;
+    }
+    .imgSectionUnoSDos {
+        width: 47%;
+    }
+    .divSection {
+        height: 2298px;
+    }
+    .divSectionSDos {
+        height: 1850px;
+    }
+
+}   
+@media(min-width: 1200px){
+    .imgSectionUnoSDos {
+        width: 35%;
+    }
+    .divDivSectionSDos {
+        width: 60%;
+        padding: 25px 50px;
+    };
+
+
+}

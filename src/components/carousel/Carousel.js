@@ -33,6 +33,7 @@ const Carousel = () => {
       modules={[Navigation ]}
       slidesPerView={1}
       navigation
+      autoplay
       pagination={{ clickable: true }}
       breakpoints={{
           spaceBetween:10,

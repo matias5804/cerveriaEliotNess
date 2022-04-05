@@ -76,3 +76,42 @@
     width: 25px;
     height: 30px;
 }
+
+
+@media(min-width: 768px){
+    .footer{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .divBrandPFooter p{
+        line-height: 23px;
+    }
+}
+
+@media(min-width: 1024px){
+    .divBrandPFooter {
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        height: 320px;
+        justify-content: space-evenly;
+    }
+
+    .divBrandPFooter img{
+        width: 270px;
+    }
+    .divRedesFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 60px;
+        justify-content: flex-end;
+    }
+    .divRedesFooter div{
+        display: flex;
+        gap: 15px;
+    }
+    .ulFooter{
+        padding: 15px 0 15px 76px;
+    }
+}
